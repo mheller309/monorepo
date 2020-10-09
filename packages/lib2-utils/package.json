@@ -1,6 +1,6 @@
 {
   "name": "@testa-lerna/lib2-utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Mariano Heller",
   "license": "MIT",
   "main": "dist/index.js",
@@ -54,5 +54,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.20"
-  }
+  },
+  "gitHead": "167bc6d2915711c02d0b5b9d3fbd248349b0a117"
 }
