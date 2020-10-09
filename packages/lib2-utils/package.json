@@ -1,6 +1,6 @@
 {
   "name": "@testa-lerna/lib2-utils",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": "Mariano Heller",
   "license": "MIT",
   "main": "dist/index.js",
