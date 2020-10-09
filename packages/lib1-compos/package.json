@@ -1,6 +1,6 @@
 {
   "name": "@testa-lerna/lib1-compos",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Mariano Heller",
   "license": "MIT",
   "main": "dist/index.js",
@@ -68,5 +68,5 @@
     "tslib": "^2.0.2",
     "typescript": "^4.0.3"
   },
-  "gitHead": "167bc6d2915711c02d0b5b9d3fbd248349b0a117"
+  "gitHead": "51cc3ffdd3d0cc2f73f40c0d9012f7f79f939135"
 }
