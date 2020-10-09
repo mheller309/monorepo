@@ -6,6 +6,8 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
+    "publish": "lerna publish",
+    "publish:canary": "lerna publish --canary",
     "test": "lerna run test",
     "prepublish": "npm run test"
   }
