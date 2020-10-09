@@ -1,6 +1,6 @@
 {
   "name": "@testa-lerna/lib1-compos",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": "Mariano Heller",
   "license": "MIT",
   "main": "dist/index.js",
@@ -74,6 +74,6 @@
   },
   "gitHead": "940aa465ecad6d31b301787b5ead9459f400b84e",
   "dependencies": {
-    "@testa-lerna/lib2-utils": "^0.0.8"
+    "@testa-lerna/lib2-utils": "^0.0.9"
   }
 }
