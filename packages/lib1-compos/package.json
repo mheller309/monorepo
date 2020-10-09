@@ -32,7 +32,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsdx lint --write-file"
+      "pre-commit": "tsdx lint --fix"
     }
   },
   "prettier": {
