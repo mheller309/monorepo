@@ -1,6 +1,6 @@
 {
   "name": "@testa-lerna/lib1-compos",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Mariano Heller",
   "license": "MIT",
   "main": "dist/index.js",
