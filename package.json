@@ -4,11 +4,9 @@
   "devDependencies": {
     "lerna": "^3.22.1"
   },
-  "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
-  },
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "prepublish": "npm run test"
   }
 }
