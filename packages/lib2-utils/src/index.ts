@@ -8,10 +8,6 @@ export const sum = (a: number, b: number) => {
   return a + b;
 };
 
-export const diff = (a: number, b: number) => {
-  return a - b;
-};
-
 export const toUppercase = (a: string) => {
   if ('development' === process.env.NODE_ENV) {
     console.log('boop');
