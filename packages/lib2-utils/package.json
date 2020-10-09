@@ -1,5 +1,7 @@
 {
+  "name": "@testa-lerna/lib2-utils",
   "version": "0.1.0",
+  "author": "Mariano Heller",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,8 +33,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "lib2-utils",
-  "author": "Mariano Heller",
   "module": "dist/lib2-utils.esm.js",
   "size-limit": [
     {

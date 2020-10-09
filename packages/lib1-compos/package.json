@@ -1,5 +1,7 @@
 {
+  "name": "@testa-lerna/lib1-compos",
   "version": "0.1.0",
+  "author": "Mariano Heller",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -35,8 +37,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "lib1-compos",
-  "author": "Mariano Heller",
   "module": "dist/lib1-compos.esm.js",
   "size-limit": [
     {
