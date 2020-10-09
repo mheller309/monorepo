@@ -32,7 +32,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsdx lint"
+      "pre-commit": "tsdx lint --write-file"
     }
   },
   "prettier": {
@@ -72,5 +72,8 @@
     "tslib": "^2.0.2",
     "typescript": "^4.0.3"
   },
-  "gitHead": "3062e0b8a36474e85909b1d0ef0f698fcee76ea2"
+  "gitHead": "3062e0b8a36474e85909b1d0ef0f698fcee76ea2",
+  "dependencies": {
+    "@testa-lerna/lib2-utils": "^0.0.7"
+  }
 }

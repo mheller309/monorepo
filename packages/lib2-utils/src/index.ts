@@ -15,6 +15,13 @@ export const toUppercase = (a: string) => {
   return a.toUpperCase();
 };
 
+export const toLowercase = (a: string) => {
+  if ('development' === process.env.NODE_ENV) {
+    console.log('boop');
+  }
+  return a.toLocaleLowerCase();
+};
+
 export function chunk<T>(
   array: List<T> | null | undefined,
   size?: number
