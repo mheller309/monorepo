@@ -1,6 +1,8 @@
  
 # POC LERNA
 
+[LERNA](https://github.com/lerna/lerna)
+
 - Cree 2 proyectos completamente separados con TSDX (https://github.com/formium/tsdx)
   - lib1-compos
   - lib2-utils
@@ -11,7 +13,7 @@
 - Genere 2 scripts base en el root del monorepo
   - `npm run bootstrap` para instalar las dependencias & hoistear las deps comunes
   - `npm run test` para correr todos los tests de los packages
-- *Commands at `https://github.com/lerna/lerna/tree/master/commands`*
+- *Commands [here](https://github.com/lerna/lerna/tree/master/commands)*
 - La configuracion `publishConfig` parece ser por cada package
 - Se guarda el commit hash de cada publish, si se quiere publicar sin nada nuevo no te deja (salvo con force)
 - Flujo de agregar funcionalidad a lib2  y usarla en lib1
