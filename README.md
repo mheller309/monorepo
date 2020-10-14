@@ -22,6 +22,7 @@
   - `lerna bootstrap` (y quizas `lerna link`?) instala/linkea la dependencia
   - listo
 - Se puede manejar versionado sincronizado o independiente (sincronizado siendo mas simple)
+- Agregue bash script para generar coverage report unificado (`npm run test:report`)
 
 # CONCLUSIONES
 - MAJOR PRO: Monorepo con muchos mini-paquetes cada uno con sus dependencias

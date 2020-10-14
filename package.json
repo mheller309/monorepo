@@ -2,12 +2,15 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "nyc": "^15.1.0"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
+    "postinstall": "npm run bootstrap",
     "prepublish": "npm run test",
     "publish": "lerna publish",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "test:report": "./scripts/mergeReports.sh"
   }
 }
