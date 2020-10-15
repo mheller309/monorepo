@@ -36,4 +36,4 @@
 - MAJOR PRO: Monorepo con muchos mini-paquetes cada uno con sus dependencias
 - MAJOR PRO: Semver/publish mas estandarizado
 - MAJOR CON: nuevo workflow con `add`, `bootstrap`, etc. -> Tiene su curva de aprendizaje
-- MINOR CON: canary publish pincha xq detecta package.json modificados
+- MINOR CON: Todavia no logre hacer andar canary publish (pincha xq detecta package.json modificados)
