@@ -1,4 +1,12 @@
- 
+
+# TODO
+- Cambiar `lerna run test` x un jest con un config a root level q le diga donde encontrar los tests
+  - PRO: No hace falta mergear coverages, colores en consola
+  - CON: Una unica configuracion de jest
+- YARN????? -> hace falta workspaces?? q es/hace?
+- 
+
+
 # POC LERNA
 
 [LERNA](https://github.com/lerna/lerna)

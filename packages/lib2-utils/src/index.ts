@@ -1,5 +1,5 @@
 import { List } from 'lodash';
-import _chunk from 'lodash/chunk';
+import _chunk from 'lodash-es/chunk';
 
 export const sum = (a: number, b: number) => {
   if ('development' === process.env.NODE_ENV) {

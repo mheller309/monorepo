@@ -31,4 +31,4 @@ coverage/
 .eslintcache
 lerna-debug.log
 
-.package-lock.json
+package-lock.json
